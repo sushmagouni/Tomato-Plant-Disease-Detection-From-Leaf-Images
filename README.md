@@ -1,1 +1,1 @@
-# Tomato-Plant-Disease-Detection-using-Deep-learning
+# Tomato-Plant-Disease-Detection-From-Leaf-Images-Using-Deep-learning
