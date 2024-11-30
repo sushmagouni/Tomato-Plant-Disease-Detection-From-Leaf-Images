@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Leaf Disease Prediction</title>
+    <link rel="stylesheet" href="../static/predict.css">
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="#"class="active">Predict</a></li>
+        <li><a href="/result">Result</a></li>
+    </ul>
+</nav>
+    <div class="container mt-5">
+        <h1 class="text-center">Tomato Plant Disease Prediction</h1>
+        <p class="text-center">Upload an image of a tomato leaf, and we will predict the type of disease (if any).</p>
+        
+        <form action="/result" method="POST" enctype="multipart/form-data" class="text-center">
+            <div class="form-group">
+                <input type="file" name="image" accept="image/*" class="form-control-file" required>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Predict Disease</button>
+        </form>
+    </div>
+</body>
+</html>
