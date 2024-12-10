@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  background-image:url(../static/img/gallery/profile-img.jpeg); 
+  background-size: cover;
+  background-position: center; 
+  min-height: 100vh; 
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+}
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #150d0d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .active {
+  text-decoration: underline;
+}
+.container {
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px; /* Add margin to account for fixed navbar */
+}
+.red { 
+  color: #870404;
+  font-size: 40px; 
+  font-family: 'Georgia', serif; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+h2 {
+  font-size: 25px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #d1ecf1;
+  color: #0c5460;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.alert h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #0c5460;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  margin-left: 8px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}

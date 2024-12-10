@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="../static/result.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Predict</a></li>
+            <li><a href="#"class="active">Result</a></li>
+        </ul>
+    </nav>
+    <div class="container mt-5">
+        <header>
+            <h1 class="red">Tomato plant Disease Detection</h1>
+        </header>
+        <h2 class="text-center">Prediction Result</h2>
+        
+        <div class="alert alert-info text-center mt-4">
+            <h4>{{ prediction_text }}</h4>
+        </div>
+        
+        <div class="text-center">
+            <a href="/predict" class="btn btn-secondary">Predict Another Image</a>
+            <a href="/" class="btn btn-primary ml-2">Home</a>
+        </div>
+    </div>
+</body>
+</html>
