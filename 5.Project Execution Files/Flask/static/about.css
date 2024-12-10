@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url(../static/img/gallery/img4.jpg); /* Replace with the path to your background image */
+  background-size: cover;
+  margin:0;
+  color: rgb(244, 233, 232);
+  text-align: center;
+  padding:20px;
+}
+.navbar {
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+}
+.navbar ul {
+  list-style: none; 
+  padding: 0; 
+}
+.navbar li {
+  display: inline; 
+  margin-left: 20px; 
+  position: relative; 
+}
+.navbar a {
+  color: rgb(245, 235, 235); 
+  text-decoration: none;
+  font-size: 16px; 
+}
+.navbar .dropdown {
+  display: none; 
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  background: rgba(0, 0, 0, 0.8); 
+  border-radius: 5px; 
+  z-index: 1000; 
+}
+.navbar li:hover .dropdown {
+  display: block; 
+}
+.dropdown li {
+  display: block;
+  padding: 10px; 
+}
+.Red{ 
+  color: #ede6e6;
+  font-size: 50px; 
+  font-family: 'Georgia', serif; 
+}
+about-container {
+  display: flex; 
+  max-width: 800px; 
+  margin: auto; 
+  padding: 20px; 
+  border-radius: 20px;
+}

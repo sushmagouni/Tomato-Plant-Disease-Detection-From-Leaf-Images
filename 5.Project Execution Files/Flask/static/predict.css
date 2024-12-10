@@ -1,0 +1,107 @@
+body { 
+  background-image: url(../static/img/gallery/img5.jpg);
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center; 
+  min-height: 100vh; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color:rgb(20, 3, 3)
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 28px; 
+  text-align: center;
+  width: 80%;
+  border-radius: 10px;
+  max-width: 500px; 
+  padding: 30px;
+}
+h1 {
+  color: #110101;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom:20px;
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color:#f4eeee
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="file"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Submit Button Styling */
+button {
+  background-color: #121c13;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #051306;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+      padding: 20px;
+  }
+}
